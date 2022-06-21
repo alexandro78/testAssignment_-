@@ -1,0 +1,10 @@
+{"data":[  {"name": "John", "email": "john9@email.com", "disabled": false},
+            {"name": "John", "surname": "Diachenko", "disabled": true, "email": "john3@email.com" },
+            {"name": "John", "email": "john2@email.com", "disabled": true },
+            {"name": "Janet", "surname": "Janetovna", "email": "john1@email.com" },
+             {"name": "john4", "email": "john4@email.com" },
+            {"name": "Jane", "email": "jane@email.com" }
+],
+
+"condition": {"include": [{"name": "John", "surname": "Janetovna"}], "exclude": [{"disabled": false}], "sort_by": ["email"]}
+}
